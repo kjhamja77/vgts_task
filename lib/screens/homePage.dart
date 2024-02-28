@@ -18,11 +18,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
   fetchRoute()async{
     var fetch = await RouteRepository.fetchRoutes();
-    print('fetched data print value ${routes}');
     setState(() {
       routes= fetch;
     });
-    print('fetched route ${routes.routes?[0].bounds?.northeast?.lat}');
   }
 
   @override

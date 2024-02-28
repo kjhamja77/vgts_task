@@ -53,7 +53,6 @@ class _BottomTabState extends State<BottomTab> {
             const BottomNavigationBarItem(
               icon: Icon(Icons.price_change_outlined),
               label: 'Prices',
-              // backgroundColor: Colors.blue,
             ),
             const BottomNavigationBarItem(
               icon: Icon(Icons.settings),
